@@ -43,3 +43,45 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart
+/build/
+/ios/Flutter/App.framework
+/ios/Flutter/engine.podspec
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/.last_build_id
+/ios/.symlinks/
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/ios/Runner.xcodeproj/project.xcworkspace/
+/ios/Runner.xcworkspace/xcshareddata/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/ephemeral/
+/ios/.dart_tool/
+/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/doc/api/
+
+# Android
+/android/key.properties
+/android/local.properties
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+
+# IDE specific
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Sensitive keys - VERY IMPORTANT
+.env
